@@ -15,7 +15,8 @@ public class Main {
 		else if (pass.length() == 1)
 			System.out.println("Finally, a character!");
 		else if (pass.length() == 2)
-			System.out.println("OMG, two character!");
-		
+			System.out.println("OMG, two characters!");
+		else if (pass.length() >= 3 && pass.length() <= 5)
+			System.out.println("Easy to crack in 5 seconds...");
 	}
 }
