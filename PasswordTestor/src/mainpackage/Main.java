@@ -22,6 +22,9 @@ public class Main {
 			System.out.println("Not bad for a regular password...");
 		else if (pass.length() >= 11 && pass.length() <= 15)
 			System.out.println("Very strong password!");
-		
+		else if (pass.length() >= 16 && pass.length() <= 25)
+			System.out.println("Even brute force crackers cannot stop you now! (For a very long time at least)");
+		else if (pass.length() >= 26)
+			System.out.println("LEGENDARY PASSWORD: NO ONE CAN HACK INTO IT UNTIL THE END OF TIME!");
 	}
 }
