@@ -18,5 +18,10 @@ public class Main {
 			System.out.println("OMG, two characters!");
 		else if (pass.length() >= 3 && pass.length() <= 5)
 			System.out.println("Easy to crack in 5 seconds...");
+		else if (pass.length() >= 6 && pass.length() <= 10)
+			System.out.println("Not bad for a regular password...");
+		else if (pass.length() >= 11 && pass.length() <= 15)
+			System.out.println("Very strong password!");
+		
 	}
 }
